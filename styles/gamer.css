@@ -355,10 +355,18 @@ body {
     .footer-content{
         flex-direction: column;
     }
+    /* icons section styles */
     .icons-container{
-        
+        grid-template-columns: repeat(1, 1fr);
     }
-
-
+    .action-games,
+    .Adventure-Games,
+    .Arcade-Games,
+    .Educational-Games,
+    .Word-Games,
+    .Role-Palying-Games{
+        flex-direction: column;
+    }
 }
+/* responsive styles ends here */
 
