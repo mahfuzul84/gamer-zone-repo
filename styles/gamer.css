@@ -52,6 +52,85 @@ body {
     border-radius: 8px;
 }
 
+/* banner section styles */
+.banner-container{
+    border: 5px solid red;
+    margin: 50px auto 0;
+    max-width: 1050px;
+    min-height: 50px;
+    display: flex;
+    height: 500px;
+}
+.banner-text{
+    border: 1px solid green;
+    width: 50%;
+    text-align: center;
+}
+.banner-img{
+    border: 1px solid blue;
+    width: 50%;
+    border-radius: 8px;
+    padding: 10px;
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+}
+.banner-text h2{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 130px;
+    padding-top: 10px;
+   
+}
+.banner-text h1{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+}
+.banner-description{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.btn-banner-1{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: palevioletred;
+    padding: 0 30px;
+    border-radius: 45px;
+    margin-left: 70px;
+    margin-bottom: 200px;
+}
+.btn-banner-2{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: skyblue;
+    padding: 0 30px;
+    border-radius: 45px;
+}
+
 
 /* Responsive styles here */
 
