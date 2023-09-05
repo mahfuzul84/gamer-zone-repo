@@ -46,8 +46,27 @@ body {
     font-size: 20px;
     font-weight: 500;
 }
-.login-btn{
+.nav-items-container .login-btn{
     background-color: rgba(11, 2, 35, 0.10);
     padding: 20px 17px;
     border-radius: 8px;
 }
+
+
+/* Responsive styles here */
+
+@media screen and (max-width:400){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-items-container{
+        flex-direction: column;
+    }
+    .nav-items-container a{
+        margin-top: 20px;
+    }
+    .nav-items-container .login-btn{
+        width: 100%;
+    }
+}
+
