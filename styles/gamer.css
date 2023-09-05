@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Open+Sans:ital,wght@0,400;1,800&family=Poppins&family=Work+Sans:wght@400;600;700&display=swap');
 
+/* common shared styles here */
+
 * {
     box-sizing: border-box;
 }
@@ -51,6 +53,8 @@ body {
     padding: 20px 17px;
     border-radius: 8px;
 }
+/* navbar section styles ends here */
+
 
 /* banner section styles */
 .banner-container{
@@ -122,6 +126,8 @@ body {
     border: 0;
     border-radius: 45px;   
 }
+/* banner section styles ends here */
+
 
 /* online games section styles start  */
 
@@ -173,6 +179,8 @@ body {
 .single-img img{
     width: 100%;
 }
+/* online games section styles ends here */
+
 
 /* play section styles start */
 
@@ -226,6 +234,8 @@ body {
     position: relative;
     bottom: 150px;   
 }
+/* play section styles ends here */
+
 
 /* footer section style */
 .footer-container{
@@ -266,12 +276,37 @@ body {
     font-size: 20px;
     color: #FFF;
 }
+/* footer section styles ends here */
 
-
-
-
-
-
+/* icons section styles */
+.icons-container{
+    width: 100%;
+    margin: 50px auto 0;
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 5px;
+}
+.action-games{
+    display: flex;
+}
+.Adventure-Games{
+    display: flex;
+}
+.Arcade-Games{
+    display: flex;
+}
+.Educational-Games{
+    display: flex;
+}
+.Word-Games{
+    display: flex;
+}
+.Role-Palying-Games{
+    display: flex;
+}
+/* icons section styles ends here */
 
 
 
@@ -319,6 +354,9 @@ body {
     }
     .footer-content{
         flex-direction: column;
+    }
+    .icons-container{
+        
     }
 
 
