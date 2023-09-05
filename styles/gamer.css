@@ -54,20 +54,18 @@ body {
 
 /* banner section styles */
 .banner-container{
-    border: 5px solid red;
     margin: 50px auto 0;
     max-width: 1050px;
     min-height: 50px;
     display: flex;
     height: 500px;
+    background-color: #FFF;
 }
 .banner-text{
-    border: 1px solid green;
     width: 50%;
     text-align: center;
 }
 .banner-img{
-    border: 1px solid blue;
     width: 50%;
     border-radius: 10px;
     padding: 10px;
@@ -122,9 +120,66 @@ body {
     font-weight: 600;
     background-color: skyblue;
     border: 0;
-    border-radius: 45px;
+    border-radius: 45px;   
+}
+
+/* online games section styles start  */
+
+.games-text{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+.funny-video-design{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;   
+}
+.games-description{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.img-container{
+    display: flex;
+    max-width: 1050px;
+    margin: 0 auto 0;
+    min-height: 400px;
+    gap: 10px;
     
 }
+.single-img{
+    width: 30%;
+}
+.single-img-description{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.single-img img{
+    width: 100%;
+}
+
+
+
+
+
+
+
 
 
 /* Responsive styles here */
