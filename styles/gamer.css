@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Open+Sans:ital,wght@0,400;1,800&family=Poppins&family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* navbar section styles start */
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1050px;
+    margin: 0 auto;
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+    gap: 20px;
+}
+.logo-container img{
+    width: 100px;
+    
+}
+.logo-container p{
+    font-size: 30px;
+    font-weight: 700;
+}
+.word-color{
+    color: palevioletred;
+    font-size: 40px;
+}
+.nav-items-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.login-btn{
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 20px 17px;
+    border-radius: 8px;
+}
