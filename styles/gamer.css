@@ -69,7 +69,7 @@ body {
 .banner-img{
     border: 1px solid blue;
     width: 50%;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 10px;
 }
 .banner-img img{
@@ -78,17 +78,12 @@ body {
 }
 .banner-text h2{
     color: #0B0223;
-    text-align: center;
     font-family: Work Sans;
     font-size: 48px;
     font-style: normal;
-    font-weight: 600;
-    margin-top: 130px;
-    padding-top: 10px;
-   
+    font-weight: 600;  
 }
 .banner-text h1{
-    text-align: center;
     font-family: Work Sans;
     font-size: 80px;
     font-style: normal;
@@ -101,12 +96,11 @@ body {
 }
 .banner-description{
     color: #534C64;
-    text-align: center;
     font-family: Work Sans;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    margin-bottom: 0px;
+    
 }
 .btn-banner-1{
     color: #FFF;
@@ -115,10 +109,10 @@ body {
     font-style: normal;
     font-weight: 600;
     background-color: palevioletred;
-    padding: 0 30px;
+    border: 0;
     border-radius: 45px;
     margin-left: 70px;
-    margin-bottom: 200px;
+    
 }
 .btn-banner-2{
     color: #FFF;
@@ -127,8 +121,9 @@ body {
     font-style: normal;
     font-weight: 600;
     background-color: skyblue;
-    padding: 0 30px;
+    border: 0;
     border-radius: 45px;
+    
 }
 
 
@@ -146,6 +141,20 @@ body {
     }
     .nav-items-container .login-btn{
         width: 100%;
+    }
+    /* nav resposive ends here */
+
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-text, .banner-img{
+        width: 100%;
+    }
+    .banner-text h1{
+        font-size: 30px;
+    }
+    .banner-text h2{
+        font-size: 20px;
     }
 }
 
