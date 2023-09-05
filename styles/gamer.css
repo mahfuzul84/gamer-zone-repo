@@ -224,8 +224,47 @@ body {
     height: 200px;
     background-image: url(../images/Rectangle\ 66.png);
     position: relative;
-    bottom: 150px;
-   
+    bottom: 150px;   
+}
+
+/* footer section style */
+.footer-container{
+    margin: 50px auto 0;
+    max-width: 1050px;
+    background-color: #0B0223;
+}
+.footer-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.amer{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+.information{
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #FFF;
+}
+.icons{
+    text-align: center;
+    font-size: 40px;
+    gap: 20px;
+    color: #FFF;
+}
+.copy-right{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #FFF;
 }
 
 
@@ -277,6 +316,9 @@ body {
     .playing-img img{
         width: 70%;
         margin-left: 0;
+    }
+    .footer-content{
+        flex-direction: column;
     }
 
 
